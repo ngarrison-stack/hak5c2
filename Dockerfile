@@ -1,4 +1,4 @@
-FROM alpine:3.16
+FROM alpine:3.20.3
 
 ARG version=3.2.0_amd64_linux
 
