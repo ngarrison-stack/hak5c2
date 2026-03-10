@@ -1,0 +1,16 @@
+{
+  "name": "auto-token-sale",
+  "version": "1.0.0",
+  "description": "Smart contract to auto-sell a percentage of airdropped BDAG tokens via DEX",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy:blockdag": "npx hardhat run scripts/deploy.js --network blockdag",
+    "deploy:ethereum": "npx hardhat run scripts/deploy.js --network ethereum",
+    "deploy:bsc": "npx hardhat run scripts/deploy.js --network bsc",
+    "deploy:local": "npx hardhat run scripts/deploy.js --network hardhat"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  }
+}
